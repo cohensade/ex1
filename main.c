@@ -3,12 +3,8 @@
 
 int main(){
  int num1,num2,max,min;
- 
-    printf("Enter the first number: ");
 
     scanf("%d", &num1);
-
-     printf("Enter the second number: ");
 
     scanf("%d", &num2);
 
@@ -44,28 +40,28 @@ int main(){
     
     
    // Print Armstrong numbers
-    printf("Armstrong numbers: ");
+    printf("The Armstrong numbers are: ");
     for (int i = 0; i < armstrongCount; i++) {
         printf("%d ", armstrongNumbers[i]);
     }
     printf("\n");
 
     // Print Palindrome numbers
-    printf("Palindrome numbers: ");
+    printf("The Palindromes are: ");
     for (int i = 0; i < palindromeCount; i++) {
         printf("%d ", palindromeNumbers[i]);
     }
     printf("\n");
     
     // Print prime numbers
-    printf("Prime numbers: ");
+    printf("The Prime numbers are: ");
     for (int i = 0; i < primeCount; i++) {
         printf("%d ", primeNumbers[i]);
     }
     printf("\n");
     
     // Print strong numbers
-    printf("Strong numbers: ");
+    printf("The Strong numbers are: ");
     for (int i = 0; i < strongCount; i++) {
         printf("%d ", strongNumbers[i]);
     }
