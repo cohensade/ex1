@@ -37,13 +37,13 @@ main.o: main.c NumClass.h
 	gcc -Wall -g -c main.c -o main.o
 
 basicClassification.o: basicClassification.c NumClass.h
-	gcc -Wall -g -c basicClassification.c -o basicClassification.o
+	gcc -Wall -g -fPIC -c basicClassification.c -o basicClassification.o
 
 advancedClassificationLoop.o: advancedClassificationLoop.c  NumClass.h
-	gcc -Wall -g -c advancedClassificationLoop.c  -o advancedClassificationLoop.o
+	gcc -Wall -g -fPIC -c advancedClassificationLoop.c  -o advancedClassificationLoop.o
 
 advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
-	gcc -Wall -g -c advancedClassificationRecursion.c -o advancedClassificationRecursion.o
+	gcc -Wall -g -fPIC -c advancedClassificationRecursion.c -o advancedClassificationRecursion.o
 
 	
 
